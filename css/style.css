@@ -180,3 +180,9 @@ section h2 {
     border-top: 1px solid #e2e8f0;
     font-size: 0.9rem;
 }
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
