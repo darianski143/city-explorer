@@ -50,7 +50,7 @@ async function loadOrase() {
     console.log('L2 Ex. 3 - nume mai lungi de 10 caractere:', orase.filter((o) => o.length > 10).length)
 
     // c) pentru testul de eroare, se inlocuieste temporar 1 cu 999
-    const user = await fetchUserById(999)
+    const user = await fetchUserById(1)
     console.log('L2 Ex. 3 - orasul utilizatorului 1:', user.address.city)
   } catch (error) {
     console.error('L2 Ex. 3 - nu am putut încarca datele:', error.message)
